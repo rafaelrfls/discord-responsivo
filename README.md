@@ -1,4 +1,4 @@
-# Desafio CSS - Página do Youtube
+# Desafio CSS - Página do Discord Responsivo
 
 Desafio de responsividade da Trilha de CSS da DIO! Recriei a página do Discord com HTML e CSS, colocando em prática os fundamentos do CSS, as propriedades básicas da linguagem de estilização, FlexBox e também o conceito de Mobile First, tornando a página responsiva.
 
@@ -8,7 +8,7 @@ Desafio de responsividade da Trilha de CSS da DIO! Recriei a página do Discord 
 
 Desktop:
 ![image](assets/img/readme-images/pagina2.png)
-[Clique aqui](https://rafaelrfls.github.io/desafio-css-pagina-youtube/) para acessar o resultado final do projeto.
+[Clique aqui](https://rafaelrfls.github.io/discord-responsivo/) para acessar o resultado final do projeto.
 
 ## 🛠️ Tecnologias Utilizadas
 
