@@ -1,0 +1,297 @@
+@import url(./reset.css);
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+/* header */
+
+header {
+    background-image: url(./img/Header\ Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 459px;
+    align-items: center;
+}
+
+.header_content {
+    padding: 0px 24px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+header h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 5vw;
+    font-weight: 800;
+    /* width: 400px; */
+    text-align: left;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+header p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    text-align: justify;
+    padding: 30px 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button:hover {
+    box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.button_cursor:hover {
+    cursor: pointer;
+}
+
+.download_button{
+    width: 80%;
+    max-width: 342px;
+    height: 54px;
+    border-radius: 28px;
+    border-color: transparent;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.open_discord_button{
+    width: 80%;
+    max-width: 342px;
+    height: 54px;
+    border-radius: 28px;
+    border-color: transparent;
+    background-color: #23272A;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+/* container1 */
+
+.text_container h1 {
+    font-size: 5vw;
+    color: #23272A;
+}
+
+.container1 img {
+    max-width: 100%;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    text-align: justify;
+}
+
+.container1 h1 {
+    margin: 20px 0;
+    font-weight: 800;
+}
+
+/* container2 */
+
+.container2 img {
+    max-width: 100%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    text-align: justify;
+    background: #F6F6F6;
+}
+
+.container2 h1 {
+    margin: 20px 0;
+    font-weight: 800;
+}
+
+/* container3 */
+
+.container3 img {
+    max-width: 100%;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    text-align: justify;
+}
+
+.container3 h1 {
+    margin: 20px 0;
+    font-weight: 800;
+}
+
+/* container4 */
+
+.container4 img {
+    max-width: 100%;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    text-align: justify;
+    background: #F6F6F6;
+}
+
+.container4 h1 {
+    margin: 20px 0;
+    font-weight: 800;
+    font-size: 6.5vw;
+    font-family: 'Luckiest Guy', cursive;
+    color: #23272A;
+}
+
+/* footer */
+
+footer {
+    background-color: #23272A;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width: 162px;
+    height: 45px;
+}
+
+/* media queries */
+
+@media screen and (min-width: 450px) {
+    .download_button {
+        width: 342px;
+    }
+
+    .open_discord_button {
+        width: 342px;
+    }
+}
+
+@media screen and (min-width: 920px) {
+
+    /* header */
+
+    header {
+        height: 459px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header_content {
+        display: flex;
+        align-items: center;
+        width: 720px;
+    }
+    
+    header h1{
+        text-align: center;
+    }
+    
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 24px;
+        gap: 10px;
+    }
+    
+    .open_discord_button{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+ 
+    .text_container {
+        max-width: 500px;
+    } /* serve para todas classes text_container */
+
+    .text_container h1 {
+        font-size: 35px;
+    } /* serve para todas classes text_container */
+ 
+    /* container1 */
+
+    .container1 img {
+        max-width: 670px;
+    }
+    
+    .container1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* container2 */
+
+    .container2 img {
+        max-width: 670px;
+    }
+    
+    .container2 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* container3 */
+
+    .container3 img {
+        max-width: 670px;
+    }
+    
+    .container3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* container4 */
+
+    .container4 {
+        text-align: center;
+        align-items: center;
+    }
+    
+    .container4_container {
+        width: 720px;
+        align-items: center;
+    }
+
+    .container4_container h1{
+        font-size: 45px;
+    }
+}
